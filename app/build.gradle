@@ -50,6 +50,10 @@ dependencies {
     implementation "com.google.mlkit:barcode-scanning:${mlkit_version}"
     //noinspection GradleDependency
     implementation "com.google.mlkit:face-detection:${mlkit_version}"
+    //noinspection GradleDependency
+    implementation 'com.google.mlkit:image-labeling:17.0.0'
+    //noinspection GradleDependency
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.1.1'
 
 
 

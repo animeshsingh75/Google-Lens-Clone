@@ -9,6 +9,7 @@ import android.provider.MediaStore
 import com.example.googlelensclone.barcode.BarcodeActivity
 import com.example.googlelensclone.databinding.ActivityMainBinding
 import com.example.googlelensclone.facedetect.FaceDetectActivity
+import com.example.googlelensclone.imageLabeler.ImageLabelingActivity
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -35,6 +36,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnFaceDetectActivity.setOnClickListener {
             startActivity(Intent(this,FaceDetectActivity::class.java))
+        }
+        binding.btnImageLabelerActivity.setOnClickListener {
+            startActivity(Intent(this,ImageLabelingActivity::class.java))
         }
     }
 

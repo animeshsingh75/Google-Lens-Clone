@@ -16,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoogleLensClone">
-        <activity android:name=".facedetect.FaceDetectActivity"></activity>
+        <activity android:name=".textrecog.TextRecognitionActivity"></activity>
+        <activity android:name=".imageLabeler.ImageLabelingActivity" />
+        <activity android:name=".facedetect.FaceDetectActivity" />
         <activity android:name=".barcode.BarcodeActivity" />
         <activity android:name=".CameraActivity" />
         <activity android:name=".MainActivity">

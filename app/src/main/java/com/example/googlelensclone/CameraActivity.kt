@@ -92,7 +92,7 @@ class CameraActivity : AppCompatActivity() {
                     cameraProvider.unbindAll()
                     cameraProvider.bindToLifecycle(this, cameraSelector, preview, imageCapture)
                 } catch (ex: Exception) {
-                    Log.e("CAM", "Error bindind camera", ex)
+                    Log.e("CAM", "Error binding camera", ex)
                 }
 
             },

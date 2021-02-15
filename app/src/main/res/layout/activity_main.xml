@@ -24,5 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Open Camera Activity" />
+    <Button
+        android:id="@+id/btnBarcodeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Barcode Activity" />
 
 </LinearLayout>

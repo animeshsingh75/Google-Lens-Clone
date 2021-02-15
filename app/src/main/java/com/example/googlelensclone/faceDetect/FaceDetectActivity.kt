@@ -1,8 +1,5 @@
-package com.example.googlelensclone.facedetect
+package com.example.googlelensclone.faceDetect
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import androidx.camera.core.ImageAnalysis
 import androidx.core.content.ContextCompat
 import com.example.googlelensclone.BaseLensActivity
 

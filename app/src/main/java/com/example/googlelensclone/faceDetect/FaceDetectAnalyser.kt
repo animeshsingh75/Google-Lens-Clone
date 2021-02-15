@@ -1,7 +1,6 @@
-package com.example.googlelensclone.facedetect
+package com.example.googlelensclone.faceDetect
 
 import android.annotation.SuppressLint
-import android.media.FaceDetector
 import android.util.Log
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy

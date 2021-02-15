@@ -43,6 +43,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Open Image Labeling Activity" />
-
+    <Button
+        android:id="@+id/btnTextRecogActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Text Recognition Activity" />
 
 </LinearLayout>

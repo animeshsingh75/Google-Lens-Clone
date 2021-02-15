@@ -48,6 +48,9 @@ dependencies {
 
     //noinspection GradleDependency
     implementation "com.google.mlkit:barcode-scanning:${mlkit_version}"
+    //noinspection GradleDependency
+    implementation "com.google.mlkit:face-detection:${mlkit_version}"
+
 
 
     //noinspection GradleDependency

@@ -19,15 +19,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Take photo(External Camera)" />
+
     <Button
         android:id="@+id/btnCameraActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Open Camera Activity" />
+
     <Button
         android:id="@+id/btnBarcodeActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Open Barcode Activity" />
+
+    <Button
+        android:id="@+id/btnFaceDetectActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Face Detect Activity" />
+
 
 </LinearLayout>
